@@ -313,9 +313,9 @@ print(r[4:7])
 print(r[4:])
 print((r[:7:2]) #<= 결과를 보고싶다면 list 나 tuple로 언팩킹 후 print!
 
-"""문자열도 슬라이싱이 가능."""
+# 문자열도 슬라이싱이 가능.
 
-hello = 'Hello, world!'
+hello  = 'Hello, world!'
 print(hello[2:9])
 print(hello[2:])
 print(hello[:9:2]) 
