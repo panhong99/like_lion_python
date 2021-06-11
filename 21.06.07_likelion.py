@@ -49,7 +49,7 @@ print("합은 " , num1 + num2 + num3 + num4 + num5)
 print("각 과목의 점수는" , 국어 , 영어 , 수학 , 과학 , "이며 평균은 " , int((국어 + 수학 + 영어 + 과학)/4), "입니다." )
 
 #print의 sep= 구문은 print의 내장함수로서 밑의 예시처럼 사용하면 된다.
-print(1,2,3, sep = ", ")
+print(1,2,3, sep = ",")
 print(4,5,6, sep = ",")
 print("Hello" , "Python" , sep = "")
 print(1920 , 1080 , sep = "x")
