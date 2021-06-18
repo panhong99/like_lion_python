@@ -318,3 +318,21 @@ while True:
         print(calcu[send])
     else:
         print("잘못입력하셨습니다. 다시 입력해 주세요.")
+
+'''로또 번호 중복되지 않는지 체크하고 총 6번 검증하고 출력'''
+import random
+
+i = 0
+while i < 6:
+    winners = []
+    while len(winners) < 6:
+        numbers = random.randrange(1,51)
+        winners.append(numbers) 
+    winners.sort() 
+    for x in range(len(winners)):
+        check = winners.count(winners[x])
+        if check != 1:
+            winners.remove(winners[i])
+            winners.append(random.randrange(1,51))
+    print(winners)
+    i += 1
