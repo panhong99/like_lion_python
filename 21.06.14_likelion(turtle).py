@@ -213,3 +213,56 @@
 #         t1.stamp(); t3.stamp()
 #     elif math.sqrt(((t2x - t3x) * (t2x - t3x)  )) + ((t2y - t3y) * (t2y - t2y)) <= 20 :
 #         t2.stamp(); t3.stamp()
+
+import turtle as t 
+import random
+# target = random.randrange(50,150)
+
+# def turn_up():
+#    t.left(10)
+# def turn_down():
+#    t.right(10)
+# def fire():
+#    tar = t.heading()
+#    while t.ycor > 0:
+#       t.fd(15)
+#       t.rt(5)
+# d = t.distance(target , 0)
+# t.sety(random.randint(0 ,100))
+# if d < 25:
+#    t.color("Blue")
+#    t.write("Good!" , False , "center" , ("",10))
+# else:
+#    t.color("red")
+#    t.write("Bad!" , False ,"center", ("" , 10))
+#    t.color("black")
+#    t.goto(-200 , 10)
+
+
+# t.up()
+# t.goto(-300 , 0)
+# t.down()
+# t.goto(300 , 0)
+
+# t.color("green")
+# t.up()
+# t.goto(target - 25)
+# t.down()
+# t.goto(target + 25)
+
+# t.color("black")
+# t.up()
+# t.goto(-200 , 10)
+# t.setheading(20)
+
+
+
+
+# t.onkeypress(turn_up , "Up")
+# t.onkeypress(turn_down , "Down")
+# t.onkeypress(fire , "space")
+
+# t.listen()
+# t.exitonclick()
+# t.mainloop()
+

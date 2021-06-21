@@ -286,53 +286,82 @@ def calcu(a , b):
 add , sub , mul , div = calcu(Number_a , Number_b)
 
 print(f"덧셈 {add} , 뺄셈 {sub} , 곱하기 {mul} , 나누기 {div}")
-
-def add(a , b):
+'''======================================================='''
+# 함수를 이용한 계산기작성 
+def add(a , b):     # <= 더하기 
     return a + b    
 
-def sub(a , b):
+def sub(a , b):     # <= 빼기
     return a - b    
 
-def mul(a , b):
+def mul(a , b):     # <= 곱하기
     return a * b    
 
-def div(a , b):
+def div(a , b):     # <= 나누기(몫)
     return a / b    
 
-def div2(a , b):
+def div2(a , b):    # <= 나누기(나머지)
     return a % b
 
 print("============================")
 print("1.더하기","\n","2.뺴기" ,"\n","3.곱하기" ,"\n","4.나누기" ,"\n","5.나머지" ,"\n","6.나가기")
 print("============================")
 
-while True:
-    send = int(input("원하는 연산자를 입력하세요. : "))
-    if send == 6:
+while True:             # <= 강제 종료문이 나올때까지 반복
+    send = int(input("원하는 연산자를 입력하세요. : "))     # <= 사용자 입력으로 원하는 연산입력받기 
+    if send == 6:                                    # <= 사용자의 입력이 6과 같으면 반복문 종료 
         print("계산기를 종료합니다.")
         break
-    first = int(input("첫번째 숫자를 입력하세요. : "))
-    second = int(input("두번째 숫자를 입력하세요. : "))
-    calcu = dict(zip([1,2,3,4,5] , [add(first,second),sub(first,second),mul(first,second),div(first,second),div2(first,second)]))    
-    if calcu[send]:
+    first = int(input("첫번째 숫자를 입력하세요. : "))     # <= 정수입력 1
+    second = int(input("두번째 숫자를 입력하세요. : "))    # <= 정수입력 2
+    # calcu라는 딕셔너리 변수를 만들고 key와 value 생성 
+    calcu = dict(zip([1,2,3,4,5] , [add(first,second),sub(first,second),mul(first,second),div(first,second),div2(first,second)]))   
+    if calcu[send]:                                 # <= calcu라는 딕셔너리에 send한 key가 존재한다면 하위 프로그램 실행 
         print(calcu[send])
-    else:
+    else:                                           # <= 맞지 않으면 잘못되었다고 출력
         print("잘못입력하셨습니다. 다시 입력해 주세요.")
 
+'''======================================================================='''
 '''로또 번호 중복되지 않는지 체크하고 총 6번 검증하고 출력'''
-import random
+import random   
 
-i = 0
-while i < 6:
-    winners = []
-    while len(winners) < 6:
-        numbers = random.randrange(1,51)
-        winners.append(numbers) 
-    winners.sort() 
-    for x in range(len(winners)):
-        check = winners.count(winners[x])
-        if check != 1:
-            winners.remove(winners[i])
-            winners.append(random.randrange(1,51))
-    print(winners)
-    i += 1
+i = 0       # i 변수를 0으로 지정 
+while i < 6:      # i 변수가 6보다 작을때까지 반복문 실행 
+    winners = []    # wineers 라는 빈 리스트 생성 
+    while len(winners) < 6: # 이중 반복문으로 winners 리스트의 길이가 6보다 작을때까지 반복 
+        numbers = random.randrange(1,51)    # numbers라는 난수(로또번호) 출력을 하는 변수 설정 
+        winners.append(numbers)     # 난수를  출력하고 현재는 빈 리스트인 winenrs 리스트에 append
+    winners.sort()  # winners 리스트를 오름차순으로 정리
+    for x in range(len(winners)):   # for문으로 x 변수를 생성하고 winners 리스트의 길이만큼 반복 
+        check = winners.count(winners[x])   # check라는 변수를 만들고 count함수를 사용해 winners변수내에 같은 수가 있는지 체크  
+        if check != 1:  # 조건문을 활용해 check가 1과 다를시 실행 (count함수는 해당 리스트내에 같은 객체의 수가 몇개나 있는지 체크함 (같은수가 2개라면 count는 2 가 됨))
+            winners.remove(winners[i])  # 같은수가 존재한다면 그 수를 삭제
+            winners.append(random.randrange(1,51))  # 삭제후에 하나의 난수를 다시 생성해서 winners리스트에 추가 
+    print(winners)  # 모든 검증을 거친 후 winners리스트 출력
+    i += 1  # 반복문의 종료 조건이 i가 6보다 작을동안 반복이므로 i + 1을 해줌 
+
+'''======================================================================='''
+
+apple = "apple pineapple apple pineapple"
+cnt = apple.find("pl")
+while apple[cnt+2:] != -1:
+    cnt = apple[cnt+2:].find("pl") + cnt +2
+    print(cnt)
+apple = "apple pineapple apple pineapple"     
+num = "pl"
+cnt = apple.find(num)
+print(cnt)
+while apple[cnt+2:].find(num) != -1:
+    cnt = apple[cnt+2:].find(num) + cnt + 2
+    print(cnt)
+
+apple = "apple pineapple apple pineapple"     
+cnt = apple.find("pl")
+apple = apple[cnt+2:]
+print(cnt)
+while apple[cnt+2:] != -1:
+    cnt = cnt + 2 + apple[cnt+2:].find("pl")
+    print(cnt)
+
+
+
