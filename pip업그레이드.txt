@@ -1,0 +1,9 @@
+$ sudo pip3 install -U pip
+$ sudo pip3 install -U setuptools
+위에걸 해주면 업그레이드가 된다.
+pip install pipupgrade
+위에 코드는 로컬내 모든 모듈을 전체 업그레이드
+pipupgrade --check
+업그레이드 체크
+
+
