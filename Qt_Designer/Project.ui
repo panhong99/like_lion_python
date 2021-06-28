@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>639</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Talyor's Photo</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QRadioButton" name="Button_1">
+    <property name="geometry">
+     <rect>
+      <x>109</x>
+      <y>10</y>
+      <width>70</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>증명사진 </string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Button_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>10</y>
+      <width>70</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>내부촬영</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Button_4">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>10</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>바디프로필</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Button_5">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>10</y>
+      <width>70</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>웨딩촬영</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Button_3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>70</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>야외 촬영</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>메뉴</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>580</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sathu</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>[증명사진 : 20,000] [내부촬영 : 80,000] [야외촬영 : 100,000] [바디프로필 : 300,000] [웨딩촬영 : 500,000]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>40</y>
+      <width>260</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>.SF NS Mono</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>Menu Table</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="event">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>611</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>기본 헤어,메이크업 : 50,000 | 7월 이벤트! 행운번호 7을 뽑으시면 10% 할인!! | </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Enter">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>100</y>
+      <width>81</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Enter</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>170</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>안녕하세요</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="print_option">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>590</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>금액 추가 세부사항</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="middle_option">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>590</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>옵션 세부사항</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Lucky_Button">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>450</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>행운번호 추첨!</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Button_1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>clicked_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>149</x>
+     <y>28</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>70</x>
+     <y>32</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Button_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>clicked_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>217</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>116</x>
+     <y>40</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Button_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>clicked_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>228</x>
+     <y>37</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Button_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>clicked_4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>22</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>375</x>
+     <y>36</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Button_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>clicked_5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>482</x>
+     <y>28</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>245</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit</sender>
+   <signal>editingFinished()</signal>
+   <receiver>Enter</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>145</x>
+     <y>116</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>227</x>
+     <y>112</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Enter</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Text_Changed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>123</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>261</x>
+     <y>128</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Lucky_Button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>Lucky_Button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>524</x>
+     <y>462</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>419</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>clicked_1()</slot>
+  <slot>clicked_2()</slot>
+  <slot>clicked_3()</slot>
+  <slot>clicked_4()</slot>
+  <slot>clicked_5()</slot>
+  <slot>Text_Changed()</slot>
+  <slot>Lucky_Button()</slot>
+ </slots>
+</ui>

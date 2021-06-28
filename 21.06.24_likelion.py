@@ -1,6 +1,7 @@
 '''PyQt GUI'''
 # 설치 명령어 Terminal에 pip install PyQt5 and PyQt-tools
 # open -a Designer 터미널 명령어
+# ui 파일을 py코드로 변환시키기 ==> pyuic5 파일이름.ui -o 파일이름.py 
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5 import uic

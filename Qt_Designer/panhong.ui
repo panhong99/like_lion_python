@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TalyorPhoto</class>
+ <widget class="QMainWindow" name="TalyorPhoto">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>847</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">fff000</string>
+  </property>
+  <property name="inputMethodHints">
+   <set>Qt::ImhNoAutoUppercase|Qt::ImhPreferLowercase</set>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>10</y>
+      <width>661</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>D2Coding</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Talyor's Photo Studio</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>1411</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>증명사진</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>내부촬영</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>야외촬영</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>바디프로필</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>웨딩촬영</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>130</y>
+      <width>85</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>D2Coding</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>증명사진</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>120</y>
+      <width>271</width>
+      <height>173</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>지역 선택</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_7">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>서울 </string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_6">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>인천 , 경기 </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_8">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>충청 </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_5">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>경상 </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_9">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>호남 </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>제주 </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>120</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>단체촬영</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="font">
+        <font>
+         <family>D2Coding</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>개인촬영</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>120</y>
+      <width>251</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>옵션보기 </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>Click!</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>740</y>
+      <width>1051</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>D2Coding</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>기본 옵션 설명 내용</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>291</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>기본 가격표입니다.  </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>** : 옵션을 선택함에 따라 추가가격이 발생합니다!</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>증명 사진 : 20,000</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>내부 촬영 : 80,000</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>야외 촬영 : 200,000</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>바디 프로필 : 500,000</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>웨딩 촬영 : 800,000</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="Option_change">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>330</y>
+      <width>350</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>옵션 추가</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Option_change_Price">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>420</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>추가 후 가격</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1440</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>StudioPhoto()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>304</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>BodyProfile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>887</x>
+     <y>104</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>357</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>WaddingPhoto()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1188</x>
+     <y>113</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>568</x>
+     <y>434</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>FacePhoto()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>23</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>74</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>OutPhoto()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>589</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>341</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Option()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>137</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>177</x>
+     <y>455</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_2</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Price_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>126</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>207</x>
+     <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_3</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Studio_Price_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>505</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Studio_Price_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>360</x>
+     <y>182</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>441</x>
+     <y>203</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_7</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Out_Price_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>770</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>477</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_6</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Out_Price_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>709</x>
+     <y>204</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>525</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_8</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Out_Price_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>743</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>570</x>
+     <y>333</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_5</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Out_Price_4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>637</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>613</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_9</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Out_Price_5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>697</x>
+     <y>279</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>659</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>clicked()</signal>
+   <receiver>TalyorPhoto</receiver>
+   <slot>Out_Price_6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>659</x>
+     <y>300</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>704</x>
+     <y>340</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>FacePhoto()</slot>
+  <slot>StudioPhoto()</slot>
+  <slot>OutPhoto()</slot>
+  <slot>BodyProfile()</slot>
+  <slot>WaddingPhoto()</slot>
+  <slot>Option()</slot>
+  <slot>FacePhoto_Price()</slot>
+  <slot>Studio_Price_1()</slot>
+  <slot>Studio_Price_2()</slot>
+  <slot>Out_Price_1()</slot>
+  <slot>Out_Price_2()</slot>
+  <slot>Out_Price_3()</slot>
+  <slot>Out_Price_4()</slot>
+  <slot>Out_Price_5()</slot>
+  <slot>Out_Price_6()</slot>
+  <slot>linedit()</slot>
+  <slot>line_clicked()</slot>
+ </slots>
+</ui>
