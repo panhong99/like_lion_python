@@ -1,4 +1,4 @@
 {
     "git.ignoreLimitWarning": true,
-    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3"
+    "python.pythonPath": "/Users/panhong/miniforge3/bin/python"
 }
