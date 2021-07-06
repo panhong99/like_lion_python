@@ -1,0 +1,81 @@
+
+“õ
+	/host:CPUõ#ŠŒÙ
+tf_Compute/11945482ŠŒÙ´ˆÙ´ˆÙ#…ŒÙ
+tf_Compute/11945477…ŒÙ#†ŒÙ
+tf_Compute/11945478†ŒÙ"Uõ´ˆÙcostFuncHÀØˆ2P€úÊÛœZ
+tracing_count1Z!
+tf_function_calltraced-nonXla"0õ´ˆÙtf.function-graph_buildingH€¦ÍêP€ÓÓà"&õ´ˆÙconvert_to_tensorH€¿¢†gP€”Ğn"&õ´ˆÙconvert_to_tensorH€“÷±hPÀïĞO"%õ´ˆÙconvert_to_tensorH€úä›iP€‰z"&õ´ˆÙconvert_to_tensorH€¹»¢iPÀ·"&õ´ˆÙconvert_to_tensorH€„ÓiPÀô¤k"&õ´ˆÙconvert_to_tensorH€’ÛïiPÀşÃ("%õ´ˆÙconvert_to_tensorHÀ¾¯ÓjP€‰z"&õ´ˆÙconvert_to_tensorH€ğÎØjPÀ·"%õ´ˆÙconvert_to_tensorH€§Ù”kP€‰z"&õ´ˆÙconvert_to_tensorHÀêì›kPÀÆ”0"%õ´ˆÙconvert_to_tensorHÀß¨¢lP€‰z"%õ´ˆÙconvert_to_tensorH€ÿÜŸmP€‰z"%õ´ˆÙconvert_to_tensorHÀ°ü¤mPÀ„="%õ´ˆÙconvert_to_tensorHÀÈòømPÀ„="%õ´ˆÙconvert_to_tensorH€ŒúnPÀ„="%õ´ˆÙconvert_to_tensorH€ÒŒoPÀ„="/õ´ˆÙTFE_Py_ExecuteCancelableH€ŠùŠƒP€‰íà"<õ´ˆÙ%EagerExecute: __inference_costFunc_39HÀÂ¿ƒP€ÃïË"Aõ´ˆÙ*EagerLocalExecute: __inference_costFunc_39H€ÇüƒPÀ¾²Ë"5õ´ˆÙEagerCopyToDeviceAndAddCacheKeyH€ĞöŸƒP€ÈĞ"Bõ´ˆÙ-TensorHandle::GetResourceHandleInfo WaitReadyHÀ–¥ƒPÀ„=">õ´ˆÙ-TensorHandle::GetResourceHandleInfo WaitReadyH€˜Ç§ƒ"2õ´ˆÙValidateInputTypeAndPlacementHÀ”şÚ˜P€‰z"]õ´ˆÙEagerKernelExecute 0H€«¯İ˜P€ÖÂŒZ!
+	step_nameEagerKernelExecute 0Z
+group_id0"Lõ´ˆÙFunctionRunHÀ³¹™P€¶ÜZ
+id-6942675612848413640Z
+group_id0"Lõ´ˆÙFunctionRunHÀÈè™PÀ·Z
+id-6942675612848413640Z
+group_id0"+õ´ˆÙTFE_DeleteTensorHandleH€ºÏ˜P€‰z"!õ´ˆÙtf.constantH€ÛÑáŸPÀŞ
+"+õ´ˆÙTFE_DeleteTensorHandleHÀ°ÙêŸPÀ„="0õ´ˆÙTFE_Py_FastPathExecute_CHÀŠôŸPÀÃ’ë½"'õ´ˆÙTFE_DeleteTensorHandleHÀÛèüŸ"'õ´ˆÙTFE_DeleteTensorHandleHÀÛèüŸ"0õ´ˆÙEagerExecute: LogicalAndHÀäâıŸPÀÅåİ½"5õ´ˆÙEagerLocalExecute: LogicalAndHÀäâıŸPÀÅåİ½"3õ´ˆÙValidateInputTypeAndPlacementHÀ¬³… P€¸¸r"…õ´ˆÙo_Send input 0 from /job:localhost/replica:0/task:0/device:CPU:0 to /job:localhost/replica:0/task:0/device:GPU:0H€±ğ… P€¯¾q"9õ´ˆÙEagerKernelExecuteHÀäë÷ P€¸¥â¼Z
+group_id0"õ´ˆÙo_Send input 1 from /job:localhost/replica:0/task:0/device:CPU:0 to /job:localhost/replica:0/task:0/device:GPU:0HÀäë÷ Z
+group_id0"dõ´ˆÙ
+LogicalAndHÀíåø PÀ€Ş¼Z"
+	long_nameLogicalAnd:LogicalAndZ
+group_id0Z
+is_eager1"'õ´ˆÙconvert_to_tensorH€øµ£áP€›î".õ´ˆÙTFE_Py_FastPathExecute_CH€¥˜¨áP€Äª"",õ´ˆÙEagerExecute: IdentityH€ˆ×²áPÀÜ®"1õ´ˆÙEagerLocalExecute: IdentityHÀŒ”³áP€Øñ"2õ´ˆÙValidateInputTypeAndPlacementHÀÉ—ÇáPÀ„="7õ´ˆÙEagerKernelExecuteHÀÒ‘ÈáP€’ôZ
+group_id0"[õ´ˆÙIdentityHÀÛ‹ÉáPÀ„=Z
+	long_nameIdentity:IdentityZ
+group_id0Z
+is_eager1".õ´ˆÙTFE_Py_FastPathExecute_CH€„±ÍáPÀŸ«"'õ´ˆÙconvert_to_tensorH€¯ÀßáP€¶Ü"'õ´ˆÙconvert_to_tensorH€î–æáPÀØ"!õ´ˆÙtf.constantH€’ÿéáPÀçû
+"+õ´ˆÙTFE_DeleteTensorHandleHÀğ€ôáPÀ„="'õ´ˆÙconvert_to_tensorH€¬÷áPÀÃ“"!õ´ˆÙtf.constantHÀ¦İùáPÀŸ«"'õ´ˆÙTFE_DeleteTensorHandleH€Æˆıá"'õ´ˆÙconvert_to_tensorH€ØüşáPÀ‚ê"!õ´ˆÙtf.constantH€²ÁˆâP€›î"'õ´ˆÙTFE_DeleteTensorHandleH€Í¯‹â".õ´ˆÙTFE_Py_ExecuteCancelableHÀìÚâP€´‰"5õ´ˆÙEagerLocalExecute: WriteSummaryHÀşÎâP€¢•"0õ´ˆÙEagerExecute: WriteSummaryHÀşÎâP€¢•".õ´ˆÙValidateInputTypeAndPlacementH€ÔÖ™â"Yõ´ˆÙWriteSummaryHÀØ“šâPÀÃ“Z&
+	long_nameWriteSummary:WriteSummaryZ
+is_eager0"7õ´ˆÙEagerKernelExecuteHÀØ“šâPÀÃ“Z
+group_id0"+õ´ˆÙTFE_DeleteTensorHandleH€¥¡¢âPÀ„="'õ´ˆÙTFE_DeleteTensorHandleHÀ©Ş¢â"'õ´ˆÙTFE_DeleteTensorHandleH€®›£â"!õ´ˆÙtf.constantH€É‰¦âPÀŸ«"'õ´ˆÙTFE_DeleteTensorHandleH€ä÷¨â",õ´ˆÙTFE_DeleteTensorHandleHÀú¨«âPÀ·"'õ´ˆÙTFE_DeleteTensorHandleHÀú¨«â"+õ´ˆÙTFE_DeleteTensorHandleH€¾¼²âPÀ„="'õ´ˆÙTFE_DeleteTensorHandleHÀÂù²â"fõ…ŒÙExecutorState::ProcessHÀû†³œP€’ôZ
+id-6942675612848413640Z
+iter_num0Z
+group_id0"Uõ…ŒÙExecutorDoneCallbackHÀ¨é·œPÀŸ«Z
+id-6942675612848413640Z
+group_id0"fõ†ŒÙExecutorState::ProcessH€‡ĞÓ™PÀŸ«Z
+id-6942675612848413640Z
+iter_num0Z
+group_id0"õ†ŒÙ_RecvHÀ”‡Õ™P€‰zZ
+fromReadVariableOpZ	
+tomulZ$
+	long_nameReadVariableOp/_2:_RecvZ
+group_id0Z
+is_eager0"fõ†ŒÙExecutorState::ProcessHÀõòì™P€¶åZ
+id-6942675612848413640Z
+iter_num0Z
+group_id0"fõ†ŒÙExecutorState::ProcessH€şçÆ›PÀ¿í!Z
+id-6942675612848413640Z
+iter_num0Z
+group_id0"Mõ†ŒÙMulHÀ‚¥Ç›P€¤èZ
+	long_namemul:MulZ
+group_id0Z
+is_eager0"Qõ†ŒÙAddV2H€«ÊË›PÀ·Z
+	long_name	add:AddV2Z
+group_id0Z
+is_eager0"hõ†ŒÙSquaredDifferenceHÀ¸Í›P€‰zZ"
+	long_namesub:SquaredDifferenceZ
+group_id0Z
+is_eager0"Põ†ŒÙMeanHÀÁûÍ›PÀ–±Z
+	long_name	Mean:MeanZ
+group_id0Z
+is_eager0"Oõ†ŒÙSqrtH€Ø¬Ğ›PÀ„=Z
+	long_name	Sqrt:SqrtZ
+group_id0Z
+is_eager0"zõ†ŒÙ_SendH€á¦Ñ›P€Ï÷Z
+fromSqrtZ
+toidentity_RetValZ
+	long_nameSqrt/_5:_SendZ
+group_id0Z
+is_eager0"Tõ†ŒÙExecutorDoneCallbackH€Â’é›PÀ„=Z
+id-6942675612848413640Z
+group_id0"fõŠŒÙExecutorState::ProcessHÀÃ¼Ì™PÀŸ«Z
+id-6942675612848413640Z
+iter_num0Z
+group_id0"fõŠŒÙExecutorState::ProcessH€şÕÒ™PÀ–±Z
+id-6942675612848413640Z
+iter_num0Z
+group_id0"‰õŠŒÙ_RecvHÀ‹Ô™P€‰zZ
+fromadd/ReadVariableOpZ	
+toaddZ(
+	long_nameadd/ReadVariableOp/_4:_RecvZ
+group_id0Z
+is_eager0
