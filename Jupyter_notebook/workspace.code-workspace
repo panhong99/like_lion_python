@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Likelion_Tur"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
